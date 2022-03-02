@@ -116,3 +116,107 @@ h1, h2, h3, h4, h5, h6, p {
         }
     }
 }
+
+// Catalog
+.catalog {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+
+    .catalog__text {
+        width: 658px;
+        text-align: center;
+        margin: 0 auto 102px;
+
+        h2 {
+            font-size: 28px;
+            line-height: 40px;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        p {
+            line-height: 28px;
+            color: rgba(29, 31, 46, 0.7);
+            margin-bottom: 21px;
+        }
+
+        button {
+            background-color: inherit;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            line-height: 28px;
+            color: #A25F48;
+            border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+            transition: .3s;
+        }
+
+        button:hover {
+            color: darksalmon;
+            border-color: darksalmon;
+        }   
+    }
+
+    .catalog__featured {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .catalog__featured__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            span {
+                width: 30px;
+                height: 1px;
+                background-color: #ECECED;
+            }
+    
+            p {
+                margin: 0 15px;
+            }
+        }
+
+        .catalog__featured__items {
+            width: 960px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 10px;
+            margin-bottom: 100px;
+
+            .cardShop {
+                img {
+                    margin-bottom: 35px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 5px;
+                }
+
+                .cardShop__actualPrice {
+                    font-size: 19px;
+                    line-height: 32px;
+                    color: #A25F48;
+                    margin-right: 10px;
+                }
+
+                .cardShop__price {
+                    line-height: 28px;
+                    color: rgba(29, 31, 46, 0.7);
+                }
+
+                .cardShop__innv {
+                    color: rgba(29, 31, 46, 0.4);
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
