@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6, p {
             line-height: 28px;
             color: rgba(29, 31, 46, 0.7);
             margin-bottom: 21px;
+            text-transform: uppercase;
         }
 
         button {
@@ -178,6 +179,7 @@ h1, h2, h3, h4, h5, h6, p {
     
             p {
                 margin: 0 15px;
+                text-transform: uppercase;
             }
         }
 
@@ -215,6 +217,151 @@ h1, h2, h3, h4, h5, h6, p {
                 .cardShop__innv {
                     color: rgba(29, 31, 46, 0.4);
                     text-decoration: line-through;
+                }
+            }
+        }
+    }
+
+    .catalog__products {
+        
+        .catalog__products__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            span {
+                width: 30px;
+                height: 1px;
+                background-color: #ECECED;
+            }
+    
+            p {
+                margin: 0 15px;
+                text-transform: uppercase;
+            }
+        }
+
+        .catalog__products__items {
+            width: 960px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 10px;
+            margin-bottom: 100px;
+
+            .cardShop {
+                img {
+                    margin-bottom: 35px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 5px;
+                }
+
+                .cardShop__actualPrice {
+                    font-size: 19px;
+                    line-height: 32px;
+                    color: #A25F48;
+                    margin-right: 10px;
+                }
+
+                .cardShop__price {
+                    line-height: 28px;
+                    color: rgba(29, 31, 46, 0.7);
+                }
+
+                .cardShop__innv {
+                    color: rgba(29, 31, 46, 0.4);
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+
+    .catalog__magazine {
+        margin-bottom: 130px;
+
+        .catalog__magazine__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            span {
+                width: 30px;
+                height: 1px;
+                background-color: #ECECED;
+            }
+    
+            p {
+                margin: 0 15px;
+                text-transform: uppercase;
+            }
+        }
+
+        .catalog__magazine__items {
+            display: flex;
+            gap: 20px;
+
+            .catalog__magazine__items__img {
+                display: flex;
+                gap: 20px;
+    
+                .img-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+    
+                    img {
+                        height: 130px;
+                    }
+                }
+            }
+
+            .catalog__magazine__items__text {
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    font-size: 12px;
+                    line-height: 18px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-bottom: 14px;
+                }
+
+                h3 {
+                    font-size: 36px;
+                    line-height: 50px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    line-height: 28px;
+                    color: rgba(29, 31, 46, 0.7);
+                    margin-bottom: 30px;
+                }
+
+                button {
+                    width: 173px;
+                    background-color: #1D1F2E;
+                    border: none;
+                    font-size: 12px;
+                    line-height: 18px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    padding: 8px 20px;
+                    cursor: pointer;
+                }
+
+                span, h3, p, button {
+                    margin-left: 60px;
                 }
             }
         }
