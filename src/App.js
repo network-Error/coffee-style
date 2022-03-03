@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Image from './components/Image/Image';
 import Mugs from './components/Mugs/Mugs';
 import Stories from './components/Stories/Stories';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Catalog />
         <Image />
         <Stories />
+        <Subscribe />
       </div>
     </BrowserRouter>
   );
