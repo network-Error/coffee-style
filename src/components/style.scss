@@ -382,3 +382,59 @@ h1, h2, h3, h4, h5, h6, p {
         margin: 0 auto;
     }
 }
+
+// Stories
+.stories {
+    width: 960px;
+    margin: 0 auto 141px;
+
+    .stories__header {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            span {
+                width: 30px;
+                height: 1px;
+                background-color: #ECECED;
+            }
+    
+            p {
+                margin: 0 15px;
+                text-transform: uppercase;
+            }
+    }
+
+    .stories__items {
+
+        .storiesCard {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+
+            img {
+                margin-bottom: 25px;
+            }
+
+            .storiesCard__head-text {
+                font-size: 20px;
+                line-height: 32px;
+                margin-bottom: 10px;
+            }
+
+            .storiesCard__body-text {
+                line-height: 28px;
+                color: rgba(29, 31, 46, 0.7);
+                margin-bottom: 16px;
+            }
+
+            span {
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
