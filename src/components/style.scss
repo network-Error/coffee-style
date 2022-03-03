@@ -358,6 +358,11 @@ h1, h2, h3, h4, h5, h6, p {
                     color: #FFFFFF;
                     padding: 8px 20px;
                     cursor: pointer;
+                    transition: .3s;
+                }
+
+                button:hover {
+                    background-color: brown;
                 }
 
                 span, h3, p, button {
@@ -365,5 +370,15 @@ h1, h2, h3, h4, h5, h6, p {
                 }
             }
         }
+    }
+}
+
+// Image
+.image {
+    margin-bottom: 100px;
+
+    img {
+        display: flex;
+        margin: 0 auto;
     }
 }
