@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/coffee-style/static/css/main.9d3fd8b8.css",
+    "main.js": "/coffee-style/static/js/main.7ac80997.js",
+    "static/js/787.839a70af.chunk.js": "/coffee-style/static/js/787.839a70af.chunk.js",
+    "static/media/mugs1.png": "/coffee-style/static/media/mugs1.d6217efa2391d8232dc4.png",
+    "static/media/sectionImage.jpg": "/coffee-style/static/media/sectionImage.6c5513a41d45458a931e.jpg",
+    "static/media/mugs2.png": "/coffee-style/static/media/mugs2.6acd14e69a258bfd4e26.png",
+    "static/media/background.jpg": "/coffee-style/static/media/background.04c2d988621f49524764.jpg",
+    "static/media/product6.jpg": "/coffee-style/static/media/product6.6ffd0fb2ea32daada8cc.jpg",
+    "static/media/stories2.jpg": "/coffee-style/static/media/stories2.ffc07996153806fb4b68.jpg",
+    "static/media/product4.jpg": "/coffee-style/static/media/product4.87b904457e47a5b3ebed.jpg",
+    "static/media/stories1.jpg": "/coffee-style/static/media/stories1.35313b97bce93324f193.jpg",
+    "static/media/product8.jpg": "/coffee-style/static/media/product8.ce7c3546315d0a4f4437.jpg",
+    "static/media/product9.jpg": "/coffee-style/static/media/product9.7cc6ca7ca87f5b834cc1.jpg",
+    "static/media/product1.jpg": "/coffee-style/static/media/product1.dc932e78b43bbe1ede38.jpg",
+    "static/media/product7.jpg": "/coffee-style/static/media/product7.59fcdadb1889dc8cd8a8.jpg",
+    "static/media/stories3.jpg": "/coffee-style/static/media/stories3.932752c4743632e18c81.jpg",
+    "static/media/product5.jpg": "/coffee-style/static/media/product5.de90eba4db21376afa20.jpg",
+    "static/media/product2.jpg": "/coffee-style/static/media/product2.a377134a66515bdf2815.jpg",
+    "static/media/offer1.jpg": "/coffee-style/static/media/offer1.d804e2989c18e5fb034f.jpg",
+    "static/media/product3.jpg": "/coffee-style/static/media/product3.e3c63f365abc797642ee.jpg",
+    "static/media/offer2.jpg": "/coffee-style/static/media/offer2.35830b50a81323e28025.jpg",
+    "static/media/basketCount.svg": "/coffee-style/static/media/basketCount.2002e7427e5f769206e34d0218d8b5fc.svg",
+    "index.html": "/coffee-style/index.html",
+    "main.9d3fd8b8.css.map": "/coffee-style/static/css/main.9d3fd8b8.css.map",
+    "main.7ac80997.js.map": "/coffee-style/static/js/main.7ac80997.js.map",
+    "787.839a70af.chunk.js.map": "/coffee-style/static/js/787.839a70af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d3fd8b8.css",
+    "static/js/main.7ac80997.js"
+  ]
+}
