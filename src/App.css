@@ -854,6 +854,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 13px;
   line-height: 22px;
   color: rgba(29, 31, 46, 0.7);
+  transition: .3s;
+}
+.footer__menu a:hover {
+  color: brown;
 }
 .footer__follow {
   display: flex;
@@ -871,6 +875,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 13px;
   line-height: 22px;
   color: rgba(29, 31, 46, 0.7);
+  transition: .3s;
+}
+.footer__follow a:hover {
+  color: brown;
 }
 .footer__contact .contactUs {
   font-size: 12px;
